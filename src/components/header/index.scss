@@ -1,0 +1,31 @@
+.header {
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4.4rem;
+  color: #fff;
+  background-color: #d86a56;
+  .center {
+    h1 {
+      font-size: 1.8rem;
+    }
+  }
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    a {
+      color: #fff;
+      .iconfont {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

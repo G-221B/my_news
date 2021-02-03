@@ -1,0 +1,9 @@
+.loading {
+  display: block;
+  position: fixed;
+  width: 10rem;
+  height: 10rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

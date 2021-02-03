@@ -1,0 +1,12 @@
+.error-tip {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+  color: #999;
+  img {
+    width: 10rem;
+    height: 10rem;
+  }
+}

@@ -1,0 +1,30 @@
+.nav-bar {
+  position: fixed;
+  z-index: 2;
+  top: 4.4rem;
+  right: 0;
+  left: 0;
+  border: 0.1rem solid #e0e0e0;
+  background-color: #fff;
+  .scroll {
+    height: 3rem;
+    width: 100vw;
+    overflow-x: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    .wrapperList {
+      display: flex;
+      line-height: 3rem;
+      .item {
+        width: 6rem;
+        font-size: 1.3rem;
+        font-weight: normal;
+        text-align: center;
+      }
+      .current {
+          color: #d58f75;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+.follow {
+  z-index: 3;
+  position: absolute;
+  display: block;
+  right: 1.5rem;
+  top: 1.2rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  &.iconfont {
+    font-size: 1.8rem;
+  }
+  &.icon-star-o {
+    color: #fff;
+  }
+  &.icon-star {
+    color: #f7bf4f;
+  }
+}
